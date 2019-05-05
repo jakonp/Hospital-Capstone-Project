@@ -22,7 +22,7 @@ void PatientMenu();
 
 void MainMenu()
 {
-    system("clear"); //system clear does not work on mac or linux
+    system("clear"); //system clear for windows machines (coded on XCode for Mac)
     cout << "-=-=-=- Main Menu -=-=-=-" << endl;
     cout << "1. Department Menu" << endl;
     cout << "2. Staff Menu" << endl;
